@@ -5,7 +5,8 @@
  */
 
 const port = process.env.PORT || 3000;
-const hostUrl = process.env.HOST_URL || `http://localhost:${port}`;
+const hostUrl =
+  process.env.HOST_URL || `https://stock-data-251j.onrender.com${port}`;
 export const swaggerDocOptions = {
   definition: {
     openapi: "3.0.0",
@@ -16,6 +17,7 @@ export const swaggerDocOptions = {
         "hello tahir me lucky bol rha hu  tere hisabh se dekh lena ki kesse use ker na he api historical data bhi he or intraday data bhi or api ki limit nhi to auto refresh ka option  ho jay ga na 10days me complete kerna he application",
       contact: {
         email: "mobiartlucky@gmail.com",
+        phone: "+91 6269957381",
       },
     },
     servers: [
