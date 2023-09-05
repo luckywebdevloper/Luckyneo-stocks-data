@@ -13,7 +13,7 @@ export const swaggerDocOptions = {
       version: "1.1.0",
       title: " lucky neo National Stock Exchange",
       description:
-        "This package will help us to get equity details and historical data from National Stock Exchange of India.",
+        "hello tahir me lucky bol rha hu  tere hisabh se dekh lena ki kesse use ker na he api historical data bhi he or intraday data bhi or api ki limit nhi to auto refresh ka option  ho jay ga na 10days me complete kerna he application",
       contact: {
         email: "mobiartlucky@gmail.com",
       },
