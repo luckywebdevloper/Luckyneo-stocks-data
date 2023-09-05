@@ -5,8 +5,7 @@
  */
 
 const port = process.env.PORT || 3000;
-const hostUrl =
-  process.env.HOST_URL || `https://stock-data-251j.onrender.com${port}`;
+const hostUrl = process.env.HOST_URL || `https://stock-data-251j.onrender.com`;
 export const swaggerDocOptions = {
   definition: {
     openapi: "3.0.0",
